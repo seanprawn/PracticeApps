@@ -3,7 +3,6 @@ package com.example.recyclerview;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -24,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private final LinkedList<String> mWordList = new LinkedList<>();
     private RecyclerView mRecyclerView;
     private WordListAdapter mAdapter;
+    boolean mListChanged = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,13 +48,13 @@ public class MainActivity extends AppCompatActivity {
                 mRecyclerView.smoothScrollToPosition(wordListSize);
             }
         });
+        this.initList(mListChanged); //Data
+        this.initAdapters(); // Handlers to handle the data
 
-        for (int i=0;i<20;i++)
-        {
-            mWordList.addLast("Sean rules "+i+" Many times!");
-            Log.d(LOG_TAG, "onCreate: WORDLIST \n"+mWordList.getLast());
-        }
 
+    }
+
+    private void initAdapters() {
         // Get a handle to the RecyclerView.
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerview);
         // Create an adapter and supply the data to be displayed.
@@ -63,6 +63,18 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(mAdapter);
         // Give the RecyclerView a default layout manager.
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+    }
+
+    private void initList(boolean listChanged) {
+        if (listChanged)
+        {
+            mWordList.clear();
+        }
+        for (int i=0;i<20;i++)
+        {
+            mWordList.addLast("Sean rules "+i+" Many times!");
+            Log.d(LOG_TAG, "onCreate: WORDLIST \n"+mWordList.getLast());
+        }
     }
 
     @Override
@@ -77,8 +89,10 @@ public class MainActivity extends AppCompatActivity {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
+        mListChanged = true;
         int id = item.getItemId();
-
+        this.initList(mListChanged);
+        this.initAdapters();
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
