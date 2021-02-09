@@ -9,6 +9,9 @@ import org.json.JSONObject;
 
 import java.lang.ref.WeakReference;
 
+/*
+* This class is no longer used in this app!!! BookLoader has replaced it!
+* */
 public class FetchBook extends AsyncTask<String, Void, String> {
 
     private WeakReference<TextView> mTitleText;
