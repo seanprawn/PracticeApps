@@ -71,8 +71,11 @@ private static final String PRIMARY_CHANNEL_ID = "primary_notification_channel";
         Bitmap androidImage = BitmapFactory
                 .decodeResource(getResources(),R.drawable.mascot_1);
         NotificationCompat.Builder notifyBuilder = getNotificationBuilder();
-        notifyBuilder.setStyle(new NotificationCompat.BigPictureStyle()
-                .bigPicture(androidImage)
+        notifyBuilder.setStyle(new NotificationCompat.InboxStyle()
+                .addLine("Here is the first line")
+                .addLine("Here is the second one")
+                .addLine("Yay! Last one")
+//                .bigPicture(androidImage)
                 .setBigContentTitle("Notification Updated!"));
         mNotifyManager.notify(NOTIFICATION_ID, notifyBuilder.build());
         setNotificationButtonState(false, false, true);
