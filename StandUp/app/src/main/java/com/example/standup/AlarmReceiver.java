@@ -29,8 +29,8 @@ public class AlarmReceiver extends BroadcastReceiver {
 //        Add a notification icon and build the notification
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, PRIMARY_CHANNEL_ID)
                 .setSmallIcon(R.drawable.ic_stand_up)
-//                .setContentTitle(getString(R.string.stand_up_alert))
-//                .setContentText(getString(R.string.stand_up_content))
+                .setContentTitle("Stand Up Alert")
+                .setContentText("You should stand up and walk around now!")
                 .setContentIntent(contentPendingIntent)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setAutoCancel(true)
