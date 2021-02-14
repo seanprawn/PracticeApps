@@ -1,5 +1,6 @@
 package com.example.scorekeeper;
 
+import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -18,6 +19,10 @@ public class MainActivity extends AppCompatActivity {
     static final String STATE_SCORE_1 = "Team 1 Score";
     static final String STATE_SCORE_2 = "Team 2 Score";
 
+    private SharedPreferences mPreferences;
+    private String sharedPrefFile =
+            "com.example.scorekeeper";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,16 +31,24 @@ public class MainActivity extends AppCompatActivity {
         mScoreText1 = (TextView)findViewById(R.id.score_1);
         mScoreText2 = (TextView)findViewById(R.id.score_2);
 
-        if (savedInstanceState != null)
-        {
-            mScore1 = savedInstanceState.getInt(STATE_SCORE_1);
-            mScore2 = savedInstanceState.getInt(STATE_SCORE_2);
+//        if (savedInstanceState != null)
+//        {
+//            mScore1 = savedInstanceState.getInt(STATE_SCORE_1);
+//            mScore2 = savedInstanceState.getInt(STATE_SCORE_2);
+//
+//            //Set the score text views
+//            mScoreText1.setText(String.valueOf(mScore1));
+//            mScoreText2.setText(String.valueOf(mScore2));
+//
+//        }
+        mPreferences = getSharedPreferences(sharedPrefFile, MODE_PRIVATE); //init shared prefs
+        //Restore preferences
+        mScore1 = mPreferences.getInt(STATE_SCORE_1,0);
+        mScore2 = mPreferences.getInt(STATE_SCORE_2,0);
 
-            //Set the score text views
+//        Set the score text views
             mScoreText1.setText(String.valueOf(mScore1));
             mScoreText2.setText(String.valueOf(mScore2));
-
-        }
     }
 
     public void decreaseScore(View view) {
@@ -95,12 +108,22 @@ public class MainActivity extends AppCompatActivity {
             return true;
     }
 
+//    @Override
+//    protected void onSaveInstanceState(Bundle outState) {
+//        // Save the scores.
+//        outState.putInt(STATE_SCORE_1, mScore1);
+//        outState.putInt(STATE_SCORE_2, mScore2);
+//        super.onSaveInstanceState(outState);
+//    }
+
     @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        // Save the scores.
-        outState.putInt(STATE_SCORE_1, mScore1);
-        outState.putInt(STATE_SCORE_2, mScore2);
-        super.onSaveInstanceState(outState);
+    protected void onPause() {
+        super.onPause();
+
+        SharedPreferences.Editor prefsEditor = mPreferences.edit();
+        prefsEditor.putInt(STATE_SCORE_1, mScore1);
+        prefsEditor.putInt(STATE_SCORE_2, mScore2);
+        prefsEditor.apply();
     }
 
     @Override
@@ -114,4 +137,16 @@ public class MainActivity extends AppCompatActivity {
             menu.findItem(R.id.night_mode).setTitle(R.string.night_mode);
         }
         return true;    }
+
+    public void clearScores(View view) {
+        int clearedScore = 0;
+        mScore1 = clearedScore;
+        mScore2 = clearedScore;
+        mScoreText1.setText(String.valueOf(clearedScore));
+        mScoreText2.setText(String.valueOf(clearedScore));
+
+        SharedPreferences.Editor prefs = mPreferences.edit();
+        prefs.clear();
+        prefs.apply();
+    }
 }
