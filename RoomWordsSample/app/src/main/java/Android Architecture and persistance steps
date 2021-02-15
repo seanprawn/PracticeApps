@@ -1,0 +1,86 @@
+TODO List - in order to implement the architecture
+
+1 . Create an Entity
+     -> Create the class for the entity
+    -> Annotate the class so that Room can create the database from it
+
+2. Create and Implement the DAO class
+ ***************************
+ !!!  This will be an annotated class where you specify SQL queries and associate them with method calls.
+ !!!  The compiler checks the SQL for errors, then generates queries from the annotations.
+ !!!  For common queries, the libraries provide convenience annotations (such as @Insert.)
+ ****************************
+ - Note that:
+   -The DAO must be an interface or abstract class.
+   -Room uses the DAO to create a clean API for your code.
+   -By default, all queries (@Query) must be executed on a thread other than the main thread.
+   -For operations such as inserting or deleting, if you use the provided convenience annotations, Room takes care of thread management for you.
+
+    -> Implement the DAO class
+
+3. Implement LiveData
+ - observe the data so that when it changes, you can react.
+ - LiveData is a LifeCycle Library class for observation and helps the app respond to data changes.
+ - If you use a return value of type LiveData in your method description, Room generates all necessary code to update the LiveData when the database is updated.
+
+    -> Implement by Annotating the DAO class and using LiveData
+
+4. Add a Room Database
+ - Room is a database layer on top of an SQLite database.
+ - Room takes care of mundane tasks that you used to handle with a database helper class such as SQLiteOpenHelper.
+ - Room uses the DAO to issue queries to its database.
+ - By default, to avoid poor UI performance, Room doesn't allow you to issue database queries on the main thread. LiveData applies this rule by automatically running the query asynchronously on a background thread, when needed.
+ - Room provides compile-time checks of SQLite statements.
+
+  **********************************************************
+ - !!!! Your Room class must be abstract and extend RoomDatabase.
+  ***********************************************************
+ - Usually, you only need one instance of the Room database for the whole app.
+
+    -> Implement the Room Database Class
+    -> Add annotations for the database
+    -> use synchronized
+    -> Setup migration or use singleton and destroy the db and rebuild
+
+ 5. Create the repository
+  - a class that abstracts access to multiple data sources.
+  - The Repository is not part of the Architecture Components libraries, but is a suggested best practice for code separation and architecture.
+  - A Repository class handles data operations. It provides a clean API to the rest of the app for app data.
+  - It manages query threads and allows you to use multiple backends.
+  - In the most common example, the Repository implements the logic for deciding whether to fetch data from a network or use results cached in the local database.
+
+    -> Implement the repository class
+    -> Add wrapper methods and create an async task
+
+6. Create the ViewModel
+ - The ViewModel is a class whose role is to provide data to the UI and survive configuration changes.
+ - A ViewModel acts as a communication center between the Repository and the UI.
+ - The ViewModel is part of the lifecycle library.
+ - holds your app's UI data in a way that survives configuration changes.
+ - Separating your app's UI data from your Activity and Fragment classes lets you better follow the single responsibility principle:
+     ****Your activities and fragments are responsible for drawing data to the screen, while your ViewModel is responsible for holding and processing all the data needed for the UI.
+ - In the ViewModel, use LiveData for changeable data that the UI will use or display.
+ - ***********************************************************************************************************************
+ !!!!  Never pass context into ViewModel instances.
+ !!!!  Do not store Activity, Fragment, or View instances or their Context in the ViewModel.
+  - ***********************************************************************************************************************
+ - An Activity can be destroyed and created many times during the lifecycle of a ViewModel,
+ - such as when the device is rotated. If you store a reference to the Activity in the ViewModel,
+ - you end up with references that point to the destroyed Activity.
+ - This is a memory leak. If you need the application context, use AndroidViewModel
+
+    -> Implement the ViewModel class
+
+7. Add XML Layouts for the UI
+
+    -> Add styles that follow material design principles
+    -> Add Item Layout
+    -> Add a recyclerView
+    ****************************************************************************************************************
+    -> To use VectorDrawableCompat, you need to set android.defaultConfig.vectorDrawables.useSupportLibrary = true in app\build.gradle
+    ****************************************************************************************************************
+TODO
+Task 9.1 of Android fundamentals 10.1 Part A: Room, LiveData, and ViewModel
+ https://developer.android.com/codelabs/android-training-livedata-viewmodel?index=..%2F..%2Fandroid-training#
+8. Create an adapter and add the recyclerview
+
