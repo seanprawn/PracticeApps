@@ -142,3 +142,58 @@ The result returned from the query is observed LiveData. Therefore, every time t
 
 ********************************************************************************************************************************************
 ********************************************************************************************************************************************
+
+12. update the app so that when it opens, the initial data set is only added if the database has no data.
+
+ - To detect whether the database contains data already, you can run a query to get one data item. If the query returns nothing, then the database is empty.
+    -> Add a method to the DAO to get a single word
+    -> Update the initialization method to check whether data exists
+
+13. delete all words
+ -
+
+    -> Add DeleteAll() to DAO interface and annotate it
+
+    -> Add DeleteAll() to the repository class
+    -> Add DeleteAll() to ViewModel class
+    -> Add the clear all menu option
+
+14. Delete 1 word only
+ -  here are the general steps to implement a method to use the Room library to interact with the database:
+ - Add the method to the DAO, and annotate it with the relevant database operation.
+ - Add the method to the WordRepository class. Write the code to run the method in the background.
+ - To call the method in the WordRepository class, add the method to the WordViewModel.
+ -*** The rest of the app can then access the method through the WordViewModel.
+
+    -> Add DeleteWord() to DAO and annotate it
+    -> Add deleteWord() to the WordRepository class
+    -> Add deleteWord() to the WordViewModel class
+
+15. Enable users to swipe words away
+ - add functionality to allow users to swipe an item in the RecyclerView to delete it.
+ - Use the ItemTouchHelper class provided by the Android Support Library (version 7 and higher) to implement swipe functionality in your RecyclerView.
+ ***- The ItemTouchHelper class has the following methods:
+   * onMove() is called when the user moves the item. You will not implement any move functionality in this app.
+   * onSwipe() is called when the user swipes the item. You implement this method to delete the word that was swiped.
+
+    -> Enable the adapter to detect a swiped word
+    -> Add a method in the adapter
+    -> Add code in the onCreate() method of MainActivity to implement the onTouchHelper class to swipe and delete single items
+
+    ********************************************************
+    ********************************************************
+    Things to notice in the code:
+
+    onSwiped() gets the position of the ViewHolder that was swiped:
+
+
+    int position = viewHolder.getAdapterPosition();
+    Given the position, you can get the word displayed by the ViewHolder by calling the getWordAtPosition() method that you defined in the adapter:
+
+
+    Word myWord = adapter.getWordAtPosition(position);
+    Delete the word by calling deleteWord() on the WordViewModel:
+
+
+    mWordViewModel.deleteWord(myWord);
+    ****************************************************************************************

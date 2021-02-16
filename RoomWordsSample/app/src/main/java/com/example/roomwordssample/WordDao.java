@@ -2,6 +2,7 @@ package com.example.roomwordssample;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
+import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
@@ -23,4 +24,14 @@ public interface WordDao {
 
     @Query("SELECT * from word_table ORDER BY word ASC")
     LiveData<List<Word>> getAllWords();
+
+//    Get 1 word from the db to see if there is any data at the moment
+    @Query("SELECT * from word_table LIMIT 1")
+    Word[] getAnyWord();
+
+  /** Because this operation deletes a single row,
+   * the @Delete annotation is all that is needed to delete the word from the database */
+    @Delete
+    void deleteWord(Word word);
+
 }
