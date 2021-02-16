@@ -148,6 +148,7 @@ private static final String PRIMARY_CHANNEL_ID = "primary_notification_channel";
     }
 
     /* TODO
+    ************COMPLETED***************************
     * Android fundamentals 08.1: Notifications
     * 5. Task 3: Add a notification action button
     * https://developer.android.com/codelabs/android-training-notifications?index=..%2F..%2Fandroid-training#4

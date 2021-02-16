@@ -1,5 +1,6 @@
 package com.example.standup;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
 
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
 
+
         //        Set up the broadcast pending intent
          Intent notifyIntent = new Intent(this, AlarmReceiver.class);
 
@@ -54,9 +56,8 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
                 String toastMessage;
                 if (isChecked){
-//                    long repeatInterval = AlarmManager.INTERVAL_FIFTEEN_MINUTES;
                     long repeatInterval = AlarmManager.INTERVAL_FIFTEEN_MINUTES;
-//                    long repeatInterval = SystemClock.elapsedRealtime();
+//                    long triggerTime = SystemClock.elapsedRealtime();
                     long triggerTime = SystemClock.elapsedRealtime()
                             + repeatInterval;
 
@@ -85,11 +86,11 @@ public class MainActivity extends AppCompatActivity {
                 }
         });
 
+
+
         mNotificationManager = (NotificationManager)
                 getSystemService(NOTIFICATION_SERVICE);
         createNotificationChannel();
-
-
 
 
 
@@ -126,9 +127,13 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public void getAlarmTime(View view)
     {
-        alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+        final AlarmManager alarmManagerAlarm = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+        final AlarmManager.AlarmClockInfo info =alarmManagerAlarm.getNextAlarmClock();
+        String alarmManagerString = alarmManager.toString();
+        Log.d("Mainactivity", "getAlarmTime: AlarmManagerInfo! "+info);
         if (alarmManager != null)
         {
 //           long nextAlarmClock = alarmManager.getNextAlarmClock().getTriggerTime();
@@ -136,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
             {
                 AlarmManager.AlarmClockInfo nextAlarmClock = alarmManager.getNextAlarmClock();
                 Log.d("Mainactivity", "getAlarmTime: "+nextAlarmClock);
-                String message = "Next alarm: "+alarmManager.getNextAlarmClock();
+                String message = "Next alarm: "+nextAlarmClock;
                 Toast.makeText(MainActivity.this, message,Toast.LENGTH_SHORT)
                         .show();
                 ;
