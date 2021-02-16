@@ -82,5 +82,63 @@ TODO List - in order to implement the architecture
 TODO
 Task 9.1 of Android fundamentals 10.1 Part A: Room, LiveData, and ViewModel
  https://developer.android.com/codelabs/android-training-livedata-viewmodel?index=..%2F..%2Fandroid-training#
-8. Create an adapter and add the recyclerview
 
+8. Create an adapter and add the recyclerview
+ - The adapter caches data and populates the RecyclerView with it.
+ - The inner class WordViewHolder holds and manages a view for one list item.
+
+    -> Add a class WordListAdapter that extends RecyclerView.Adapter.
+    -> Add RecyclerView to MainActivity
+
+9. Populate the Database
+ - the method to populate the database with the initial set of words
+ - Every time the database is opened, all content is deleted and repopulated.
+ - This is a reasonable solution for a sample app, where you usually want to restart on a clean slate.
+ - To delete all content and repopulate the database whenever the app is started, you create a RoomDatabase.
+ - Callback and override the onOpen() method.
+ - Because you cannot do Room database operations on the UI thread, onOpen() creates and executes an AsyncTask to add content to the database.
+
+    -> Create the callback for populating the db
+
+10. Connect the UI with the data
+ - To display the current contents of the database, you add an observer that observes the LiveData in the ViewModel.
+ - Whenever the data changes (including when it is initialized), the onChanged() callback is invoked.
+ - In this case, the onChanged() callback calls the adapter's setWord() method to update the adapter's cached data and refresh the displayed list.
+ - Use ViewModelProviders to associate your ViewModel with your UI controller.
+ - When your app first starts, the ViewModelProviders class creates the ViewModel.
+ - When the activity is destroyed, for example through a configuration change, the ViewModel persists.
+ - When the activity is re-created, the ViewModelProviders return the existing ViewModel.
+
+
+    -> Display the words
+
+11. Create an activity for adding words
+ -
+
+
+    -> Add String resources
+    -> Add a style for buttons
+    -> Create the new activity
+    -> Implement the new activity class
+    -> Add code to insert a word into the db
+
+
+********************************************************************************************************************************************
+
+********************************************************************************************************************************************
+Now that you have a working app, let's recap what you've built. Here is the app structure again, from the beginning:
+
+You have an app that displays words in a list (MainActivity, RecyclerView, WordListAdapter).
+You can add words to the list (NewWordActivity).
+A word is an instance of the Word entity class.
+The words are cached in the RecyclerViewAdapter as a List of words (mWords). The list is automatically updated and redisplayed when the data changes.
+The automatic update happens because in the MainActivity, there is an Observer that observes the words and is notified when the words change. When there is a change, the observer's onChange() method is executed and updates mWords in the WordListAdapter.
+The data can be observed because it is LiveData. And what is observed is the LiveData<List<Word>> that is returned by the WordViewModel object.
+The WordViewModel hides everything about the backend from the user interface. It provides methods for accessing the UI data, and it returns LiveData so that MainActivity can set up the observer relationship. Views, activities, and fragments only interact with the data through the ViewModel. As such, it doesn't matter where the data comes from.
+In this case, the data comes from a Repository. The ViewModel does not need to know what that Repository interacts with. It just needs to know how to interact with the Repository, which is through the methods exposed by the Repository.
+The Repository manages one or more data sources. In the RoomWordsSample app, that backend is a Room database. Room is a wrapper around and implements an SQLite database. Room does a lot of work for you that you used to have to do yourself. For example, Room does everything that you used to use an SQLiteOpenHelper class to do.
+The DAO maps method calls to database queries, so that when the Repository calls a method such as getAllWords(), Room can execute SELECT * from word_table ORDER BY word ASC**.**
+The result returned from the query is observed LiveData. Therefore, every time the data in Room changes, the Observer interface's onChanged() method is executed and the UI is updated.
+
+********************************************************************************************************************************************
+********************************************************************************************************************************************

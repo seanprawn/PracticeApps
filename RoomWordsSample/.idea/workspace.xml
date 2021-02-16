@@ -7,17 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47c100b7-e6e1-4d16-bed8-650c48dae1f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Android Architecture and persistance steps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/roomwordssample/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/roomwordssample/WordDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/roomwordssample/WordRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/roomwordssample/WordRoomDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/roomwordssample/WordViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/architecture_layout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_add_black_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/recyclerview_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DroidCafeWithSettings" beforeDir="false" afterPath="$PROJECT_DIR$/../DroidCafeWithSettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/roomwordssample/NewWordActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/roomwordssample/WordListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_new_word.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhoneNumberSend" beforeDir="false" afterPath="$PROJECT_DIR$/../PhoneNumberSend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Android Architecture and persistance steps" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Android Architecture and persistance steps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/roomwordssample/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/roomwordssample/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/roomwordssample/WordDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/roomwordssample/WordDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/roomwordssample/WordRoomDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/roomwordssample/WordRoomDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../android-fundamentals-starter-apps-v2" beforeDir="false" afterPath="$PROJECT_DIR$/../android-fundamentals-starter-apps-v2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +27,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Galaxy_Nexus_API_26]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -35,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,10 +60,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.roomwordssample" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.roomwordssample" />
+    </key>
+    <key name="android.template.-1585362309">
       <recent name="com.example.roomwordssample" />
     </key>
   </component>
@@ -73,7 +82,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="RoomWordsSample.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -152,6 +161,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="251" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613411891619" />
+    <state x="1484" y="1343" width="374" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1613452699437">
+      <screen x="964" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="1484" y="1343" width="374" height="589" key="#com.intellij.ide.util.MemberChooser/964.1080.1920.1080/1920.0.1920.1080/1028.0.892.1080@964.1080.1920.1080" timestamp="1613452699437" />
     <state x="309" y="303" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1613411525837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -168,9 +181,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="395" y="305" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613411853138" />
-    <state x="242" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1613411588667">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1206" y="1325" width="672" height="705" key="search.everywhere.popup" timestamp="1613454371244">
+      <screen x="964" y="1080" width="1920" height="1080" />
     </state>
     <state x="242" y="236" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613411588667" />
+    <state x="1206" y="1325" width="672" height="705" key="search.everywhere.popup/964.1080.1920.1080/1920.0.1920.1080/1028.0.892.1080@964.1080.1920.1080" timestamp="1613454371244" />
   </component>
 </project>
