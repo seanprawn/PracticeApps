@@ -6,6 +6,7 @@ import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
+import androidx.room.Update;
 
 import java.util.List;
 
@@ -33,5 +34,8 @@ public interface WordDao {
    * the @Delete annotation is all that is needed to delete the word from the database */
     @Delete
     void deleteWord(Word word);
+
+    @Update
+    void update(Word... word);
 
 }
