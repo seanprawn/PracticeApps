@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_two_dates">
+
+    <fragment
+        android:id="@+id/nav_add_time"
+        android:name="com.example.simpledatetimecalculator.ui.addTime.AddTimeFragment"
+        android:label="@string/menu_add_time"
+        tools:layout="@layout/fragment_add_time" />
+
+    <fragment
+        android:id="@+id/nav_two_dates"
+        android:name="com.example.simpledatetimecalculator.ui.twoDates.TwoDatesFragment"
+        android:label="@string/menu_two_dates"
+        tools:layout="@layout/fragment_two_dates" />
+
+    <fragment
+        android:id="@+id/nav_time_between"
+        android:name="com.example.simpledatetimecalculator.ui.slideshow.TimeBetweenFragment"
+        android:label="@string/menu_time_between"
+        tools:layout="@layout/fragment_time_between" />
+</navigation>
