@@ -10,21 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47c100b7-e6e1-4d16-bed8-650c48dae1f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/drawable/ic_minus_dark.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/drawable/ic_plus_dark.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStorageDemo/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStorageDemonstration/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DroidCafeWithSettings" beforeDir="false" afterPath="$PROJECT_DIR$/../DroidCafeWithSettings" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/roomwordssample/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/roomwordssample/RoomArchitectureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/drawable/ic_minus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/drawable/ic_minus.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/drawable/ic_plus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/drawable/ic_plus.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/menu/main_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/menu/main_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scorekeeper/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scorekeeper/app/src/test/java/com/example/scorekeeper/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Scorekeeper/app/src/test/java/com/example/scorekeeper/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Todo-App-to-practice-for-the-Google-Associate-Android-Developer-Certification-Exam" beforeDir="false" afterPath="$PROJECT_DIR$/../Todo-App-to-practice-for-the-Google-Associate-Android-Developer-Certification-Exam" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../android-fundamentals-starter-apps-v2" beforeDir="false" afterPath="$PROJECT_DIR$/../android-fundamentals-starter-apps-v2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +58,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Scorekeeper" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -458,6 +448,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1097" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613771555247" />
+    <state x="80" y="172" key="SettingsEditor" timestamp="1614109832464">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="80" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614109832464" />
     <state x="395" y="305" key="chooseDestDirectoryDialog" timestamp="1613411853138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
