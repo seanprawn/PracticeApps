@@ -5,9 +5,20 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="47c100b7-e6e1-4d16-bed8-650c48dae1f6" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../PhoneNumberSend" beforeDir="false" afterPath="$PROJECT_DIR$/../PhoneNumberSend" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/../DataStorageDemo/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStorageDemonstration/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DroidCafeWithSettings" beforeDir="false" afterPath="$PROJECT_DIR$/../DroidCafeWithSettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Todo-App-to-practice-for-the-Google-Associate-Android-Developer-Certification-Exam" beforeDir="false" afterPath="$PROJECT_DIR$/../Todo-App-to-practice-for-the-Google-Associate-Android-Developer-Certification-Exam" afterDir="false" />
+>>>>>>> 3c0e0b9eef806a80d58f6925f1ef1cf07110e117
       <change beforePath="$PROJECT_DIR$/../android-fundamentals-starter-apps-v2" beforeDir="false" afterPath="$PROJECT_DIR$/../android-fundamentals-starter-apps-v2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +26,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+=======
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Tablet_API_30]" />
+>>>>>>> 3c0e0b9eef806a80d58f6925f1ef1cf07110e117
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -44,12 +59,14 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Tablet_API_30" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-02-16T13:46:07.136Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Scorekeeper" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -62,7 +79,23 @@
       <recent name="com.example.roomwordssample" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android JUnit.ExampleUnitTest">
+    <configuration name="ExampleUnitTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RoomWordsSample.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.roomwordssample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.roomwordssample" />
+      <option name="MAIN_CLASS_NAME" value="com.example.roomwordssample.ExampleUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -127,6 +160,219 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ActivityLaunch()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="RoomWordsSample.app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="ActivityLaunch" />
+      <option name="CLASS_NAME" value="com.example.roomwordssample.RoomArchitectureTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddWordTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="RoomWordsSample.app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.example.roomwordssample.AddWordTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomArchitectureTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="RoomWordsSample.app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.example.roomwordssample.RoomArchitectureTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wordAddAndEditTest()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="RoomWordsSample.app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="wordAddAndEditTest" />
+      <option name="CLASS_NAME" value="com.example.roomwordssample.WordAddAndEditTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.ExampleUnitTest" />
+        <item itemvalue="Android Instrumented Tests.wordAddAndEditTest()" />
+        <item itemvalue="Android Instrumented Tests.AddWordTest" />
+        <item itemvalue="Android Instrumented Tests.ActivityLaunch()" />
+        <item itemvalue="Android Instrumented Tests.RoomArchitectureTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -145,13 +391,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="334" y="439" key="#com.google.gct.testrecorder.ui.TestClassNameInputDialog" timestamp="1613749561244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="439" key="#com.google.gct.testrecorder.ui.TestClassNameInputDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613749561244" />
     <state x="251" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613411891619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="251" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613411891619" />
-    <state x="1484" y="1343" width="374" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1613452699437">
-      <screen x="964" y="1080" width="1920" height="1080" />
+    <state x="520" y="253" width="374" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1613553174740">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="520" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613553174740" />
     <state x="1484" y="1343" width="374" height="589" key="#com.intellij.ide.util.MemberChooser/964.1080.1920.1080/1920.0.1920.1080/1028.0.892.1080@964.1080.1920.1080" timestamp="1613452699437" />
     <state x="309" y="303" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1613411525837">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -165,6 +416,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="159" y="282" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613419956953" />
+    <state x="422" y="334" key="AndroidCreateXmlResourceDialog" timestamp="1613589800283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="422" y="334" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613589800283" />
+    <state x="359" y="282" key="FileChooserDialogImpl" timestamp="1614017053318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="359" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614017053318" />
+    <state width="1097" height="279" key="GridCell.Tab.0.bottom" timestamp="1613771555247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1097" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613771555247" />
+    <state width="1097" height="279" key="GridCell.Tab.0.center" timestamp="1613771555247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1097" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613771555247" />
+    <state width="1097" height="279" key="GridCell.Tab.0.left" timestamp="1613771555247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1097" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613771555247" />
+    <state width="1097" height="279" key="GridCell.Tab.0.right" timestamp="1613771555247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1097" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613771555247" />
+    <state width="1097" height="279" key="GridCell.Tab.1.bottom" timestamp="1613771555247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1097" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613771555247" />
+    <state width="1097" height="279" key="GridCell.Tab.1.center" timestamp="1613771555247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1097" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613771555247" />
+    <state width="1097" height="279" key="GridCell.Tab.1.left" timestamp="1613771555247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1097" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613771555247" />
+    <state width="1097" height="279" key="GridCell.Tab.1.right" timestamp="1613771555247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1097" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613771555247" />
+    <state x="80" y="172" key="SettingsEditor" timestamp="1614109832464">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="80" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614109832464" />
     <state x="395" y="305" key="chooseDestDirectoryDialog" timestamp="1613411853138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

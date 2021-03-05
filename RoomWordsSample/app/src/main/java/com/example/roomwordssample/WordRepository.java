@@ -31,7 +31,12 @@ public class WordRepository {
         new insertAsyncTask(mWordDao).execute(word);
     }
 
-//    Create the insertAsyncTask as an inner class.
+    public void update(Word word)  {
+        new updateWordAsyncTask(mWordDao).execute(word);
+    }
+
+
+    //    Create the insertAsyncTask as an inner class.
     private static class insertAsyncTask extends AsyncTask<Word, Void, Void> {
 
         private WordDao mAsyncTaskDao;
@@ -43,6 +48,62 @@ public class WordRepository {
         @Override
         protected Void doInBackground(final Word... params) {
             mAsyncTaskDao.insert(params[0]);
+            return null;
+        }
+    }
+
+    private static class deleteAllWordsAsyncTask extends AsyncTask<Void, Void, Void> {
+        private WordDao mAsyncTaskDao;
+
+        deleteAllWordsAsyncTask(WordDao dao) {
+            mAsyncTaskDao = dao;
+        }
+
+        @Override
+        protected Void doInBackground(Void... voids) {
+            mAsyncTaskDao.deleteAll();
+            return null;
+        }
+    }
+
+    public void deleteAll()  {
+        new deleteAllWordsAsyncTask(mWordDao).execute();
+    }
+
+    private static class deleteWordAsyncTask extends AsyncTask<Word, Void, Void>
+    {
+        private WordDao mAsyncTaskDao;
+
+        deleteWordAsyncTask(WordDao dao)
+        {
+            mAsyncTaskDao = dao;
+        }
+
+        @Override
+        protected Void doInBackground(final Word... params) {
+            mAsyncTaskDao.deleteWord(params[0]);
+            return null;
+        }
+    }
+
+    public void deleteWord(Word word)
+    {
+        new deleteWordAsyncTask(mWordDao).execute(word);
+    }
+
+    /**
+     *  Updates a word in the database.
+     */
+    private static class updateWordAsyncTask extends AsyncTask<Word, Void, Void> {
+        private WordDao mAsyncTaskDao;
+
+        updateWordAsyncTask(WordDao dao) {
+            mAsyncTaskDao = dao;
+        }
+
+        @Override
+        protected Void doInBackground(final Word... params) {
+            mAsyncTaskDao.update(params[0]);
             return null;
         }
     }

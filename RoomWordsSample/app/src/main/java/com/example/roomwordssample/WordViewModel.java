@@ -30,5 +30,12 @@ public class WordViewModel extends AndroidViewModel {
     In this way, the implementation of insert() is completely hidden from the UI. */
     public void insert(Word word) { mRepository.insert(word); }
 
+    public void deleteAll() {mRepository.deleteAll();}
+
+    public void deleteWord(Word word) {mRepository.deleteWord(word);}
+
+    public void update(Word word) {
+        mRepository.update(word);
+    }
 
 }
