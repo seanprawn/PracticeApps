@@ -10,17 +10,17 @@ files:
       length: 3
       offset: 106
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: 1,2
   - offset: 115
-    length: 328
+    length: 7
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 115
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: |-
       println("12".toDouble())
@@ -68,5 +68,5 @@ files:
       }
     }
   learner_created: false
-status: Solved
+status: Unchecked
 record: -1

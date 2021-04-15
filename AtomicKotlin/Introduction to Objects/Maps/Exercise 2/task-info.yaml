@@ -3,14 +3,14 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 500
-    length: 147
+  - offset: 475
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 475
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: |-
       for (hamster in hamsters) {
@@ -95,5 +95,5 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Maps+%2F+Exercise2
-status: Solved
+status: Unchecked
 record: -1

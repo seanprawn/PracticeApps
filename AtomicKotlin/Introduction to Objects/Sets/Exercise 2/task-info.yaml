@@ -3,14 +3,14 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 91
-    length: 181
+  - offset: 94
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 94
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: |-
       val set = mutableSetOf<Int>()
@@ -67,5 +67,5 @@ files:
       }
     }
   learner_created: false
-status: Solved
+status: Unchecked
 record: -1

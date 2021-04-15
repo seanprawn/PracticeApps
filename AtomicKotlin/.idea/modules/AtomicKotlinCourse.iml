@@ -159,15 +159,6 @@
       <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Sets/Exercise 2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Sets/Exercise 3/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Sets/Exercise 4/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Examples/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 1/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 2/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 3/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 4/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 5/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 6/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 7/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 8/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Variable Argument Lists/Examples/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Variable Argument Lists/Exercise 1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Variable Argument Lists/Exercise 2/src" isTestSource="false" />
@@ -271,15 +262,6 @@
       <sourceFolder url="file://$MODULE_DIR$/../../Power Tools/Using Operators/Exercise 1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Power Tools/Using Operators/Exercise 2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Power Tools/Using Operators/Exercise 3/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Examples/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 1/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 2/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 3/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 4/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Exception Handling/Examples/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Exception Handling/Exercise 1/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Exception Handling/Exercise 2/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Exception Handling/Exercise 3/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Logging/Examples/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Logging/Exercise 1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Logging/Exercise 2/src" isTestSource="false" />
@@ -342,17 +324,6 @@
       <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/String Templates/Exercise 3/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/String Templates/Exercise 4/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/String Templates/Exercise 5/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Examples/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 1/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 2/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 3/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 4/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 5/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 6/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 7/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 8/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 9/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 10/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/The in Keyword/Examples/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/The in Keyword/Exercise 1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/The in Keyword/Exercise 2/src" isTestSource="false" />
@@ -516,14 +487,6 @@
       <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Sets/Exercise 2/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Sets/Exercise 3/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Sets/Exercise 4/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 1/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 2/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 3/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 4/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 5/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 6/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 7/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 8/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Variable Argument Lists/Exercise 1/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Variable Argument Lists/Exercise 2/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Variable Argument Lists/Exercise 3/test" isTestSource="true" />
@@ -602,13 +565,6 @@
       <sourceFolder url="file://$MODULE_DIR$/../../Power Tools/Using Operators/Exercise 1/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Power Tools/Using Operators/Exercise 2/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Power Tools/Using Operators/Exercise 3/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 1/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 2/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 3/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 4/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Exception Handling/Exercise 1/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Exception Handling/Exercise 2/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Exception Handling/Exercise 3/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Logging/Exercise 1/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Logging/Exercise 2/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Logging/Exercise 3/test" isTestSource="true" />
@@ -666,16 +622,6 @@
       <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/String Templates/Exercise 3/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/String Templates/Exercise 4/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/String Templates/Exercise 5/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 1/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 2/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 3/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 4/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 5/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 6/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 7/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 8/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 9/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 10/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/The in Keyword/Exercise 1/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/The in Keyword/Exercise 2/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/The in Keyword/Exercise 3/test" isTestSource="true" />
@@ -730,6 +676,54 @@
       <sourceFolder url="file://$MODULE_DIR$/../../Usability/when Expressions/Exercise 3/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Usability/when Expressions/Exercise 4/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../util/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Testing/Examples/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Testing/Exercise 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Testing/Exercise 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Testing/Exercise 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Testing/Exercise 4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Object-Oriented Programming/Composition/Examples/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Object-Oriented Programming/Composition/Exercise 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Object-Oriented Programming/Composition/Exercise 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Object-Oriented Programming/Composition/Exercise 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Object-Oriented Programming/Polymorphism/Examples/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Object-Oriented Programming/Polymorphism/Exercise 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Object-Oriented Programming/Polymorphism/Exercise 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Object-Oriented Programming/Polymorphism/Exercise 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Power Tools/Lazy Initialization/Examples/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Power Tools/Lazy Initialization/Exercise 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Power Tools/Lazy Initialization/Exercise 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Power Tools/Lazy Initialization/Exercise 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Number Types/Examples/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Number Types/Exercise 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Number Types/Exercise 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Number Types/Exercise 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Number Types/Exercise 4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Number Types/Exercise 5/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Usability/break &amp; continue/Examples/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Usability/break &amp; continue/Exercise 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Usability/break &amp; continue/Exercise 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Usability/break &amp; continue/Exercise 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Testing/Exercise 1/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Testing/Exercise 2/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Testing/Exercise 3/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Testing/Exercise 4/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Object-Oriented Programming/Composition/Exercise 1/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Object-Oriented Programming/Composition/Exercise 2/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Object-Oriented Programming/Composition/Exercise 3/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Object-Oriented Programming/Polymorphism/Exercise 1/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Object-Oriented Programming/Polymorphism/Exercise 2/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Object-Oriented Programming/Polymorphism/Exercise 3/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Power Tools/Lazy Initialization/Exercise 1/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Power Tools/Lazy Initialization/Exercise 2/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Power Tools/Lazy Initialization/Exercise 3/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Number Types/Exercise 1/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Number Types/Exercise 2/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Number Types/Exercise 3/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Number Types/Exercise 4/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Number Types/Exercise 5/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Usability/break &amp; continue/Exercise 1/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Usability/break &amp; continue/Exercise 2/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Usability/break &amp; continue/Exercise 3/test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/../../.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../build" />
       <excludeFolder url="file://$MODULE_DIR$/../../out" />

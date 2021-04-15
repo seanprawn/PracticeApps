@@ -11,7 +11,7 @@ files:
       offset: 84
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: .capitalize()
   text: "// CreatingClasses/Task5.kt\npackage creatingClassesExercise5\n\nfun cap(s:\
     \ String) = s  \n\nfun main() {\n  println(cap(\"hi!\"))\n  println(cap(\"Hi!\"\
@@ -52,5 +52,5 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Creating+Classes+%2F+Exercise3
-status: Solved
+status: Unchecked
 record: -1

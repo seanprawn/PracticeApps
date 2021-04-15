@@ -4,29 +4,29 @@ files:
   visible: true
   placeholders:
   - offset: 68
-    length: 22
+    length: 8
     placeholder_text: /*TODO*/
     initial_state:
       length: 8
       offset: 68
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: |-
       var x = 0
         var y = 0
-  - offset: 122
-    length: 10
+  - offset: 108
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 108
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: x += steps
-  - offset: 167
-    length: 10
+  - offset: 149
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -35,8 +35,8 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: x -= steps
-  - offset: 212
-    length: 8
+  - offset: 190
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -45,8 +45,8 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: y += steps
-  - offset: 253
-    length: 10
+  - offset: 229
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -55,14 +55,14 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: y -= steps
-  - offset: 299
-    length: 14
+  - offset: 271
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 271
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: '"($x, $y)"'
   text: |-
@@ -199,5 +199,5 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Properties+%2F+Exercise1
-status: Solved
+status: Unchecked
 record: -1

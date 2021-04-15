@@ -4,26 +4,26 @@ files:
   visible: true
   placeholders:
   - offset: 99
-    length: 45
+    length: 23
     placeholder_text: 'fun abort(s: String) {}'
     initial_state:
       length: 23
       offset: 99
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: |-
       fun abort(s: String) {
         throw Exception(s)
       }
-  - offset: 161
-    length: 55
+  - offset: 139
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 139
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: |-
       capture {
@@ -83,5 +83,5 @@ files:
       }
     }
   learner_created: false
-status: Solved
+status: Unchecked
 record: -1

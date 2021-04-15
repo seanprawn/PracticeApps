@@ -4,33 +4,33 @@ files:
   visible: true
   placeholders:
   - offset: 100
-    length: 5
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 100
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: "false"
-  - offset: 142
-    length: 4
+  - offset: 143
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 143
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: "true"
-  - offset: 212
-    length: 4
+  - offset: 215
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 215
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: "true"
   text: |-
@@ -77,5 +77,5 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Programming+Basics+%2F+Booleans+%2F+Exercise1
-status: Solved
+status: Unchecked
 record: -1

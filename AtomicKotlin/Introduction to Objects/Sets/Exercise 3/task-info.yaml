@@ -4,29 +4,29 @@ files:
   visible: true
   placeholders:
   - offset: 248
-    length: 127
+    length: 15
     placeholder_text: // countPercent
     initial_state:
       length: 15
       offset: 248
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: |-
       private fun countPercent(productsCart: Set<String>, groceryCart: Set<String>) =
         100.0 * (productsCart intersect groceryCart).size / groceryCart.size
-  - offset: 431
-    length: 32
+  - offset: 319
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 319
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: countPercent(meats, groceryCart)
-  - offset: 520
-    length: 33
+  - offset: 382
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -35,8 +35,8 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: countPercent(fruits, groceryCart)
-  - offset: 612
-    length: 37
+  - offset: 447
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -45,14 +45,14 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: countPercent(vegetables, groceryCart)
-  - offset: 706
-    length: 75
+  - offset: 510
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 510
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: 100.0 * (groceryCart - meats - fruits - vegetables).size
       / groceryCart.size
@@ -161,5 +161,5 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Sets+%2F+Exercise1
-status: Solved
+status: Unchecked
 record: -1

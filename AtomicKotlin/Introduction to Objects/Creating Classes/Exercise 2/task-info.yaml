@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 62
-    length: 143
+    length: 7
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 62
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: |-
       class Giraffe {
@@ -67,5 +67,5 @@ files:
       }
     }
   learner_created: false
-status: Solved
+status: Unchecked
 record: -1

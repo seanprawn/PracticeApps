@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 67
-    length: 57
+    length: 48
     placeholder_text: |2-
        {
         var x = 0
@@ -14,7 +14,7 @@ files:
       length: 48
       offset: 67
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: '(val fieldSize: Int, var x: Int, var y: Int) {'
   text: |-
@@ -158,5 +158,5 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Constructors+%2F+Exercise1
-status: Solved
+status: Unchecked
 record: -1

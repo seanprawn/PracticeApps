@@ -3,38 +3,38 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 286
-    length: 27
+  - offset: 261
+    length: 20
     placeholder_text: MutableList<Hamster>
     initial_state:
       length: 20
       offset: 261
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: MutableMap<String, Hamster>
-  - offset: 320
-    length: 14
+  - offset: 288
+    length: 24
     placeholder_text: mutableListOf<Hamster>()
     initial_state:
       length: 24
       offset: 288
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: mutableMapOf()
-  - offset: 442
-    length: 32
+  - offset: 420
+    length: 19
     placeholder_text: hamsters += hamster
     initial_state:
       length: 19
       offset: 420
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Unchecked
     encrypted_possible_answer: hamsters[hamster.name] = hamster
-  - offset: 526
-    length: 29
+  - offset: 491
+    length: 168
     placeholder_text: |-
       {
           for (hamster in hamsters) {
@@ -136,5 +136,5 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Maps+%2F+Exercise3
-status: Solved
+status: Unchecked
 record: -1
