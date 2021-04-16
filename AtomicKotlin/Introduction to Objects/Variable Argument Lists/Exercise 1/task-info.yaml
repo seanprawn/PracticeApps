@@ -4,23 +4,23 @@ files:
   visible: true
   placeholders:
   - offset: 60
-    length: 7
+    length: 46
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 60
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: '// fun foo(vararg i: Int, vararg s: String) {}'
-  - offset: 84
-    length: 7
+  - offset: 125
+    length: 82
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 84
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: println("Multiple vararg-parameters are prohibited")
   text: |-
@@ -54,5 +54,5 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

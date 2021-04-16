@@ -150,6 +150,6 @@ files:
       second eq listOf(1, 2)
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

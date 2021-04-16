@@ -2,16 +2,19 @@
 package namedAndDefaultArgumentsExercise2
 import atomictest.eq
 
-class SimpleTime() {
+class SimpleTime(var hours: Int = 0,
+                 var minutes: Int = 0,
+                 var seconds: Int = 0,
+                 var nanoseconds: Int = 0,) {
   fun toSecondOfDay(): Int =
-    TODO()
+          ((hours * 60 + minutes) * 60) + seconds
 
   fun toNanoOfDay(): Long =
-    TODO()
+          (toSecondOfDay() * 1000000000L) + nanoseconds
 }
 
 fun main() {
-/*
+
     val noon = SimpleTime(12)
     noon.toSecondOfDay() eq 12 * 60 * 60
 
@@ -23,5 +26,5 @@ fun main() {
 
     val halfPastSeven = SimpleTime(hours = 6, minutes = 30)
     halfPastSeven.toNanoOfDay() eq (6 * 60 + 30) * 60 * 1000000000L
-*/
+
 }

@@ -4,39 +4,39 @@ files:
   visible: true
   placeholders:
   - offset: 48
-    length: 16
+    length: 141
     placeholder_text: fun showAnd() {}
     initial_state:
       length: 16
       offset: 48
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       fun showAnd(first: Boolean, second: Boolean) {
         println("$first && $second == ${first && second}")
       }
-  - offset: 66
-    length: 15
+  - offset: 191
+    length: 140
     placeholder_text: fun showOr() {}
     initial_state:
       length: 15
       offset: 66
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       fun showOr(first: Boolean, second: Boolean) {
         println("$first || $second == ${first || second}")
       }
-  - offset: 108
-    length: 6
+  - offset: 358
+    length: 19
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 108
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       showAnd(true, true)
@@ -136,5 +136,5 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

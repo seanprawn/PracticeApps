@@ -4,17 +4,17 @@ files:
   visible: true
   placeholders:
   - offset: 77
-    length: 11
+    length: 25
     placeholder_text: fun f() = 0
     initial_state:
       length: 11
       offset: 77
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: 'fun f(i: Int, j: Int) = i + j'
-  - offset: 90
-    length: 12
+  - offset: 104
+    length: 35
     placeholder_text: fun g() = ""
     initial_state:
       length: 12
@@ -23,8 +23,8 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: 'fun g(s1: String, s2: String) = s1 + s2'
-  - offset: 104
-    length: 13
+  - offset: 141
+    length: 24
     placeholder_text: fun h() = '?'
     initial_state:
       length: 13
@@ -33,14 +33,14 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: fun h() = println("h()")
-  - offset: 134
-    length: 6
+  - offset: 267
+    length: 38
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 134
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |
       val fVal: Int = f(1, 2)
@@ -114,5 +114,5 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 75
-    length: 15
+  - offset: 104
+    length: 225
     placeholder_text: class Rectangle
     initial_state:
       length: 15
       offset: 75
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Rectangle(
         val side1: Double = 1.0,
@@ -22,15 +22,15 @@ files:
           return "Rectangle ${side1}x$side2 of '$color' color"
         }
       }
-  - offset: 131
-    length: 7
+  - offset: 368
+    length: 353
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 131
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       // Without argument names
         println(Rectangle(1.1))
@@ -108,5 +108,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Apr 2021 10:48:54 UTC
 record: -1

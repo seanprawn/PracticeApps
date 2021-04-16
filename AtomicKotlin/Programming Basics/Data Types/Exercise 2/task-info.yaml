@@ -11,7 +11,7 @@ files:
       offset: 223
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       // String can be combined with every other type:
         val si: String = string + int
@@ -31,7 +31,7 @@ files:
       offset: 350
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: String
   - offset: 383
     length: 29
@@ -41,7 +41,7 @@ files:
       offset: 383
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       // val bb = boolean + boolean
         // val ic = int + character
@@ -54,7 +54,7 @@ files:
       offset: 502
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: Boolean
   text: |-
     // DataTypes/Task2.kt
@@ -90,5 +90,5 @@ files:
     The type that can't be combined with itself using '+':
     Boolean
   learner_created: false
-status: Unchecked
+status: Failed
 record: -1

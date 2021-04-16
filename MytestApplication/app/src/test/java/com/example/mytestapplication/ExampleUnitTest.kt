@@ -18,10 +18,31 @@ class ExampleUnitTest {
     fun testMultiplication()
     {
         val five = Dollar(5)
-        var product: Dollar = five.times(2)
-        assertEquals(10, product.amount)
-        product = five.times(3)
-        assertEquals(15, product.amount)
+//        var product: Dollar = five.times(2)
+        assertEquals(Dollar(10).amount, five.times(2).amount)
+        assertEquals(Dollar(15).amount, five.times(3).amount)
+//        product = five.times(3)
+//        assertEquals(15, product)
+    }
+
+    @Test
+    fun testFrancMultiplication()
+    {
+        val five = Franc(5)
+//        var product: Dollar = five.times(2)
+        assertEquals(Franc(10).amount, five.times(2).amount)
+        assertEquals(Franc(15).amount, five.times(3).amount)
+//        product = five.times(3)
+//        assertEquals(15, product)
+    }
+    @Test
+    fun testEquality()
+    {
+//        assertTrue(Dollar(5).equalTo(Dollar(5)))
+        assertFalse(Dollar(5).equalTo(Dollar(6)))
+//        assertTrue(Franc(5).equalTo(Franc(5)))
+//        assertFalse(Franc(5).equalTo(Franc(6)))
+//        assertFalse(Franc(5).equalTo(Dollar(5)))
     }
 }
 //TODO

@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 60
-    length: 18
+    length: 131
     placeholder_text: fun printArgs() {}
     initial_state:
       length: 18
       offset: 60
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       fun printArgs(s: String, vararg ints: Int) {
@@ -75,5 +75,5 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

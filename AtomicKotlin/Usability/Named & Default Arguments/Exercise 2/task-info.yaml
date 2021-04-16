@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 112
-    length: 2
+    length: 142
     placeholder_text: ()
     initial_state:
       length: 2
       offset: 112
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       (
         val hours: Int = 0,
@@ -19,25 +19,25 @@ files:
         val seconds: Int = 0,
         val nanoseconds: Int = 0
       )
-  - offset: 150
-    length: 6
+  - offset: 290
+    length: 45
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 150
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: ((hours * 60 + minutes) * 60) + seconds
-  - offset: 190
-    length: 6
+  - offset: 369
+    length: 51
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 190
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: (toSecondOfDay() * 1000000000L) + nanoseconds
   text: |
     // NamedAndDefaultArgs/Task2.kt
@@ -127,5 +127,8 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Usability+%2F+Named+%26+Default+Arguments+%2F+Exercise1
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 16 Apr 2021 12:14:47 UTC
 record: -1

@@ -1,13 +1,14 @@
 package com.example.mytestapplication
 
-class Dollar(amount:Int=0) {
+import java.util.*
+import java.lang.Object as Object1
 
-    var amount: Int = amount
+class Dollar(amount:Int) : Money() {
 
-    fun times(multiplier:Int): Dollar{
-//        amount *= multiplier
+    fun times(multiplier:Int): Dollar {
         return Dollar(amount*multiplier)
     }
+
 }
 
 //TODO

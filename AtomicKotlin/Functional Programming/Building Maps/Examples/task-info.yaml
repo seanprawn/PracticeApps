@@ -229,6 +229,6 @@ files:
       map.maxByOrNull { it.key }?.value eq "one"
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

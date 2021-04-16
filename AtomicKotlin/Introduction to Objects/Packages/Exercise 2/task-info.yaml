@@ -57,14 +57,14 @@ files:
 - name: src/bbb.kt
   visible: true
   placeholders:
-  - offset: 31
-    length: 7
+  - offset: 30
+    length: 80
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 31
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       import aaa.*
@@ -79,13 +79,13 @@ files:
   visible: true
   placeholders:
   - offset: 32
-    length: 7
+    length: 140
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 32
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       val x = 10
@@ -105,7 +105,7 @@ files:
   visible: true
   placeholders:
   - offset: 33
-    length: 7
+    length: 12
     placeholder_text: // TODO
     initial_state:
       length: 7
@@ -114,14 +114,14 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: import bbb.*
-  - offset: 57
-    length: 7
+  - offset: 62
+    length: 13
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 57
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: println(g(1))
   text: |-
@@ -133,5 +133,5 @@ files:
       // TODO
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 281
-    length: 6
+    length: 142
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 281
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       val map = mutableMapOf<String, Contact>()
@@ -77,5 +77,5 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Maps+%2F+Exercise1
-status: Unchecked
+status: Solved
 record: -1

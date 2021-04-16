@@ -29,7 +29,7 @@ files:
   visible: true
   placeholders:
   - offset: 47
-    length: 7
+    length: 42
     placeholder_text: // TODO
     initial_state:
       length: 7
@@ -40,14 +40,14 @@ files:
     encrypted_possible_answer: |-
       import kotlin.math.E
       import kotlin.math.PI
-  - offset: 71
-    length: 6
+  - offset: 103
+    length: 27
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 71
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       println(PI)
@@ -61,5 +61,5 @@ files:
       TODO()
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

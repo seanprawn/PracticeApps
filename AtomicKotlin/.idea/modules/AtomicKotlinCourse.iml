@@ -724,6 +724,60 @@
       <sourceFolder url="file://$MODULE_DIR$/../../Usability/break &amp; continue/Exercise 1/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Usability/break &amp; continue/Exercise 2/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Usability/break &amp; continue/Exercise 3/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Examples/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 5/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 6/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 7/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 8/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Examples/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Exception Handling/Examples/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Exception Handling/Exercise 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Exception Handling/Exercise 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Exception Handling/Exercise 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Examples/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 5/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 6/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 7/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 8/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 9/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 10/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 1/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 2/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 3/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 4/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 5/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 6/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 7/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Introduction to Objects/Summary 2/Exercise 8/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 1/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 2/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 3/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Check Instructions/Exercise 4/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Exception Handling/Exercise 1/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Exception Handling/Exercise 2/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Preventing Failure/Exception Handling/Exercise 3/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 1/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 2/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 3/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 4/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 5/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 6/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 7/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 8/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 9/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Programming Basics/Summary 1/Exercise 10/test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/../../.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../build" />
       <excludeFolder url="file://$MODULE_DIR$/../../out" />

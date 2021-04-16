@@ -4,23 +4,23 @@ files:
   visible: true
   placeholders:
   - offset: 95
-    length: 6
+    length: 35
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 95
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: if (number > 0) number else -number
-  - offset: 118
-    length: 6
+  - offset: 145
+    length: 48
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 118
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       abs(0) eq 0
@@ -85,5 +85,5 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
