@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 58
+    length: 192
+    placeholder_text: '// TODO: create class MessageStorage'
+- name: test/Tests.kt
+  visible: false

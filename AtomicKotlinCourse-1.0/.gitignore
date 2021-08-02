@@ -1,0 +1,7 @@
+.idea
+.gradle
+/.coursecreator/
+/**/build
+/**/out
+simpleLogFile.txt
+DataFiles/*

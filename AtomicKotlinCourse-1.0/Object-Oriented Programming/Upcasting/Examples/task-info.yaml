@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: src/Shapes.kt
+  visible: true
+- name: src/Drawing.kt
+  visible: true
+- name: src/TrimmedMembers.kt
+  visible: true
+- name: src/Assignment.kt
+  visible: true

@@ -1,0 +1,16 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 27
+    length: 101
+    placeholder_text: fun showAnd() {}
+  - offset: 130
+    length: 100
+    placeholder_text: fun showOr() {}
+  - offset: 257
+    length: 178
+    placeholder_text: TODO()
+- name: test/Tests.kt
+  visible: false

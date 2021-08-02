@@ -1,1 +1,0 @@
-The maximum of 17 and 31 is 31.

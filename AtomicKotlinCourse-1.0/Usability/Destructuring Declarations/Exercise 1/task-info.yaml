@@ -1,0 +1,27 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 99
+    length: 25
+    placeholder_text: Any /* replace with required type */
+  - offset: 131
+    length: 88
+    placeholder_text: TODO()
+  - offset: 236
+    length: 225
+    placeholder_text: |-
+      /*
+          val result = calculate(5, 7)
+          result.first eq true
+          result.second eq 12
+          result.third eq 35
+          val (success, plus, multiply) =
+                  calculate(11, 13)
+          success eq true
+          plus eq 24
+          multiply eq 143
+      */
+- name: test/Tests.kt
+  visible: false

@@ -1,0 +1,41 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 245
+    length: 27
+    placeholder_text: MutableList<Hamster>
+  - offset: 279
+    length: 14
+    placeholder_text: mutableListOf<Hamster>()
+  - offset: 401
+    length: 32
+    placeholder_text: hamsters += hamster
+  - offset: 485
+    length: 29
+    placeholder_text: |-
+      {
+          for (hamster in hamsters) {
+            if (hamster.name == name) {
+              return hamster
+            }
+          }
+          throw NoSuchElementException("No hamster called $name")
+        }
+  - offset: 549
+    length: 21
+    placeholder_text: |-
+      {
+          var hamsterWithGivenName: Hamster? = null
+          for (hamster in hamsters) {
+            if (hamster.name == name) {
+              hamsterWithGivenName = hamster
+            }
+          }
+          hamsters.remove(hamsterWithGivenName)
+        }
+- name: test/Tests.kt
+  visible: false
+feedback_link: |
+  https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Maps+%2F+Exercise3

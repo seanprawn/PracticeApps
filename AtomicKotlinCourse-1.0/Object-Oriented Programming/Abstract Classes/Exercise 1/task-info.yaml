@@ -1,0 +1,26 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 59
+    length: 69
+    placeholder_text: abstract class Shape
+  - offset: 130
+    length: 130
+    placeholder_text: class Circle
+  - offset: 262
+    length: 130
+    placeholder_text: class Square
+  - offset: 394
+    length: 136
+    placeholder_text: class Triangle
+  - offset: 616
+    length: 62
+    placeholder_text: |-
+      /*
+        shapes.forEach { it.draw() }
+        shapes.forEach { it.erase() }
+      */
+- name: test/Tests.kt
+  visible: false

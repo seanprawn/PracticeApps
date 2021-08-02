@@ -1,0 +1,22 @@
+type: theory
+files:
+- name: src/LocalFunctions.kt
+  visible: true
+- name: src/LocalExtensions.kt
+  visible: true
+- name: src/Session.kt
+  visible: true
+- name: src/LocalFunctionReference.kt
+  visible: true
+- name: src/InterestingSessions.kt
+  visible: true
+- name: src/ReturnFromFun.kt
+  visible: true
+- name: src/LabeledReturn.kt
+  visible: true
+- name: src/CustomLabel.kt
+  visible: true
+- name: src/ReturnInsideLambda.kt
+  visible: true
+- name: src/ReturningFunc.kt
+  visible: true

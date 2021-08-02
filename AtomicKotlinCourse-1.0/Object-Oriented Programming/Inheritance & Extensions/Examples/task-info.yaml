@@ -1,0 +1,26 @@
+type: theory
+files:
+- name: src/Heater.kt
+  visible: true
+- name: src/InheritAdd.kt
+  visible: true
+- name: src/ExtensionFuncs.kt
+  visible: true
+- name: src/TemperatureDelta.kt
+  visible: true
+- name: src/Convention.kt
+  visible: true
+- name: src/UsefulLibrary.kt
+  visible: true
+- name: src/Adapter.kt
+  visible: true
+- name: src/ComposeAdapter.kt
+  visible: true
+- name: src/PrivateAccess.kt
+  visible: true
+- name: src/NoExtOverride.kt
+  visible: true
+- name: src/DeviceMembers.kt
+  visible: true
+- name: src/DeviceExtensions.kt
+  visible: true

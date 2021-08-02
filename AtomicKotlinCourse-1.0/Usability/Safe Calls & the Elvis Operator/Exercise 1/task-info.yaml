@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 69
+    length: 57
+    placeholder_text: fun downcase() {}
+- name: test/Tests.kt
+  visible: false

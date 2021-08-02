@@ -1,0 +1,16 @@
+type: theory
+files:
+- name: src/NoFramework.kt
+  visible: true
+- name: src/UsingExpect.kt
+  visible: true
+- name: src/SampleTest.kt
+  visible: true
+- name: src/StateMachine.kt
+  visible: true
+- name: src/StateMachineTest.kt
+  visible: true
+- name: src/Learner.kt
+  visible: true
+- name: src/LearnerTest.kt
+  visible: true

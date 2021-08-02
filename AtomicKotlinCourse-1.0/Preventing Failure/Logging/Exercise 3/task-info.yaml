@@ -1,0 +1,33 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 161
+    length: 31
+    placeholder_text: '// TODO: add values'
+  - offset: 305
+    length: 154
+    placeholder_text: |-
+      private fun log(type: String, msg: String) =
+          logFile.appendText("$type: $msg\n")
+  - offset: 487
+    length: 15
+    placeholder_text: log("Trace", msg)
+  - offset: 530
+    length: 15
+    placeholder_text: log("Debug", msg)
+  - offset: 572
+    length: 14
+    placeholder_text: log("Info", msg)
+  - offset: 613
+    length: 14
+    placeholder_text: log("Warn", msg)
+  - offset: 655
+    length: 15
+    placeholder_text: log("Error", msg)
+  - offset: 220
+    length: 5
+    placeholder_text: TODO()
+- name: test/Tests.kt
+  visible: false

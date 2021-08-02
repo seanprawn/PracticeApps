@@ -1,0 +1,12 @@
+type: theory
+files:
+- name: src/UnSealed.kt
+  visible: true
+- name: src/SealedClasses.kt
+  visible: true
+- name: src/SealedVsAbstract.kt
+  visible: true
+- name: src/ThirdLevelSealed.kt
+  visible: true
+- name: src/SealedSubclasses.kt
+  visible: true

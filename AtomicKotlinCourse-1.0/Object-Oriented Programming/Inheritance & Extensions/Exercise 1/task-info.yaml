@@ -1,0 +1,21 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 529
+    length: 147
+    placeholder_text: |-
+      class IAmHonestlyDuck(
+        val crocodile: Crocodile
+      )
+  - offset: 735
+    length: 28
+    placeholder_text: TODO()
+  - offset: 826
+    length: 80
+    placeholder_text: |-
+      //  interactWithDuck(honestlyDuck)
+      //  interactWithCrocodile(honestlyDuck.crocodile)
+- name: test/Tests.kt
+  visible: false

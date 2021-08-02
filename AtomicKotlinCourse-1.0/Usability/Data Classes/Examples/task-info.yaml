@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: src/Simple.kt
+  visible: true
+- name: src/DataClasses.kt
+  visible: true
+- name: src/CopyDataClass.kt
+  visible: true
+- name: src/HashCode.kt
+  visible: true

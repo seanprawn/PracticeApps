@@ -38,8 +38,8 @@ class ExampleUnitTest {
     @Test
     fun testEquality()
     {
-//        assertTrue(Dollar(5).equalTo(Dollar(5)))
-        assertFalse(Dollar(5).equalTo(Dollar(6)))
+        assertTrue(Dollar(5).equalTo(Dollar(5)))
+//        assertFalse(Dollar(5).equalTo(Dollar(6)))
 //        assertTrue(Franc(5).equalTo(Franc(5)))
 //        assertFalse(Franc(5).equalTo(Franc(6)))
 //        assertFalse(Franc(5).equalTo(Dollar(5)))

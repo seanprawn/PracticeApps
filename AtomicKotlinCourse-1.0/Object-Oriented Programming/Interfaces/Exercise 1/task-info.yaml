@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 104
+    length: 250
+    placeholder_text: class Cloud
+- name: test/Tests.kt
+  visible: false

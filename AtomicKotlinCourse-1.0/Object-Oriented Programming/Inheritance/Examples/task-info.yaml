@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: src/BasicInheritance.kt
+  visible: true
+- name: src/OpenAndFinalClasses.kt
+  visible: true
+- name: src/GreatApe.kt
+  visible: true
+- name: src/GreatApe2.kt
+  visible: true
